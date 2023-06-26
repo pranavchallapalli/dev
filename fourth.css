@@ -1,0 +1,14 @@
+table , td{
+    border: 2px solid aqua;
+}
+table{
+    min-width: 300px;
+}
+td{  /* table data*/
+    width: 33%;
+}
+th{  /*table headder*/
+    background-color: black;
+    color: aliceblue;
+}
+/* tr : is table row*/

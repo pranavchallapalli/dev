@@ -1,0 +1,24 @@
+div{
+    margin: 20px;
+    padding: 10px;
+    border:dotted 2px black;
+    
+}
+#highlight {
+    color : #990000;
+    background-color: yellowgreen;
+    
+}
+
+.greenyellow{
+background-color:rgb(255,0,0);
+color: rebeccapurple;
+width: 50%;
+height: 10%;
+border-width: 2px;
+border-style: solid;
+}
+/*body{
+    background-image: url("https://loremflickr.com/640/360");
+    
+}

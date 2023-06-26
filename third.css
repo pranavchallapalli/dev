@@ -1,0 +1,23 @@
+.navbar ul{
+    list-style: none;
+    width: 500px;
+    text-align: center;
+    background-color: black;
+}
+.navbar li{
+    width: 100px;
+    background-color: black;
+    border: 1px solid red;
+    display: inline-block;
+    line-height: 40px;
+
+}
+.navbar a{
+    color: #fff;
+    text-decoration: none;
+}
+.navbar a:hover{
+    background-color: #eee;
+    color:red;
+
+}

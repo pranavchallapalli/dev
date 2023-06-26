@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>input tag trails</title>
+    <link rel="stylesheet" href="fifth.css">
+</head>
+<body>
+    <h1>Contact Page</h1>
+    <form action="third.html" id="contact">
+        <fieldset>
+            <div>
+                <label for="name">Your Name</label>
+                <input type="text" name="name" id="name">
+            </div>
+            <div>
+               <label for="email">Your Email</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div>  
+                <label for="seldept">Which one is your choice?</label>
+                <select name="seldept">
+                    <option value="1">one</option>
+                    <option value="2">two</option>   <!-- this gives user the available options-->
+                    <option value ="3">three</option>
+                </select>
+            </div>
+            <div>
+                <label for="message">Message</label> <br>
+                <textarea name="message" id="message">Message</textarea>
+            </div>
+            <!--<input type="checkbox">
+            <input type="color">
+            <input type="date">
+            <input type="email">
+            <input type="file">
+            <input type="hidden" name="hideme" value="test">
+            <input type="password">
+            <input type="number">
+            <input type="radio" name ="radiobutton">
+            <input type="radio" name ="radiobutton">
+            <input type="reset" value="reset">-->
+            <div>
+                <input type="submit" value="Enter">
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
